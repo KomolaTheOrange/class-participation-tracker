@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	padding: 1.5rem;
+	font-family: "Montserrat";
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile-img {
+	width: 60px;
+	height: 60px;
+	background-color: #d9d9d9;
+	border-radius: 50px;
+}
+
+.hamburger-menu {
+	display: flex;
+	flex-direction: column;
+}
+.hamburger-menu__item {
+	width: 30px;
+	height: 5px;
+	margin-bottom: 4px;
+	background-color: #d9d9d9;
+	border-radius: 50px;
+}
+
+main {
+	width: 100%;
+}
+
+.subtract {
+	margin-top: 1rem;
+	background-color: #d9d9d9;
+	text-align: center;
+	padding: 8px;
+}
+
+.filter-wrapper {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.filter {
+	padding: 0.5rem 1rem;
+	background-color: #d9d9d9;
+	font-weight: 500;
+}
+
+.numbers-wrapper {
+	margin-top: 1.2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+	justify-items: stretch;
+}
+
+.number-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #d9d9d9;
+	/* width: 120px; */
+	height: 45px;
+}
+
+.number {
+	font-weight: 700;
+}
+
+.btn-counter {
+	padding: 0.2rem 1rem;
+	font-size: 18px;
+}
+
+.btns {
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
+}
+
+.btn {
+	padding: 0.8rem 1rem;
+	border: 0px;
+}
+
+.microphone {
+}
+.microphone {
+}
+.confirm {
+	grid-column: 1 / 3;
+}
